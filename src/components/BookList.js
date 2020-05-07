@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { ThemeContext } from '../contexts/ThemeContext';
-
 class BookList extends Component {
   static contextType = ThemeContext; //bunu kullanarak state i cekmis oluyoruz
   render() {
